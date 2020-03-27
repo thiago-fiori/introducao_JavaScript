@@ -1,3 +1,4 @@
+// JS para o javascript.html
 function mudaCor(cor){
   var elemento = document.getElementById("mensagem");
   elemento.style.backgroundColor = cor;
@@ -21,4 +22,14 @@ function limpa_tamanho(){
 function limpa_color(){
   var elemento = document.getElementById("mensagem");
   mensagem.style = "clear";
+}
+
+// JS para o formulario.html
+function valida(){
+  var nome = document.getElementById("nome");
+  if (nome.value == '') {
+    alert("Campo não pode estar em branco");
+  } else {
+    alert("Usuário registrado");
+  }
 }
