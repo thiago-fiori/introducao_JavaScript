@@ -4,7 +4,7 @@ var soma = a + b;
 var sub = a - b;
 var multi = a * b;
 
-if (b%2 == 1) {
+if (b % 2 == 1) {
   alert("Número Ímpar")
 } else {
   alert("Número par")
