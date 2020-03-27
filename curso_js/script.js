@@ -1,14 +1,3 @@
-function soma(a , b){
-  console.log(a + b);
+function mensagem(){
+  alert("Você clicou no botão");
 }
-
-// soma(2,2);
-
-function subtracao(a, b){
-  return a-b;
-}
-
-
-var s = subtracao(5, 3);
-
-console.log(s);
