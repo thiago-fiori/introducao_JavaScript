@@ -34,4 +34,10 @@ var numero = 6;
 var decimal = 6.5;
 var texto = "hello world";
 var lista = ["banana", "mamao", "laranja"];
+
+for (var i = 0; i < lista.length; i++) {
+lista[i];
+}
 */
+
+console.log("Olá");
