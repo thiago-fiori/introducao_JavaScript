@@ -3,4 +3,4 @@ var b = 3;
 var soma = a + b;
 var sub = a - b;
 var multi = a * b;
-alert(multi);
+alert("Multiplicação de a x b = " + multi);
